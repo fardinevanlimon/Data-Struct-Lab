@@ -1,5 +1,6 @@
 #include<stdio.h>
-struct xyz{
+struct xyz
+{
  char c[5];
  int i[10];
  double d[2];
@@ -10,4 +11,5 @@ struct xyz m[3];
 
 int main(){
 printf("size of xyz = %d\n",sizeof(m));
+return 0;
 }
